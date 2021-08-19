@@ -12,8 +12,10 @@ const Catalog = () =>{
                     <div className='col-3'>
                         <img src={item.img}/>
                         <div className='content'>
-                        <div className='diflex'><h3>{item.title}</h3>
-                            <div>{item.price}</div></div>
+                        <div className='diflex'>
+                            <h3>{item.title}</h3>
+                            <div>{item.price}</div>
+                        </div>
                         <p>{item.desc}</p>
                         <span>Rating: {item.rating}</span>
                         </div>
